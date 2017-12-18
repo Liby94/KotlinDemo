@@ -12,7 +12,8 @@ package kotli.isoftstone.com
  */
 fun main(args: Array<String>) {
 //    println(getCount(1000000))
-    println(getCount2(10000000))
+//    println(getCount2(10000000))
+
 }
 
 //如果方法是尾递归，可以使用tailrec关键字修饰，可以避免栈溢出

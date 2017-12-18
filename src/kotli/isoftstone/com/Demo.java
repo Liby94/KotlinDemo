@@ -18,3 +18,13 @@ public class Demo {
         System.out.println(isInstanceOf);
     }
 }
+class A
+{
+    static {
+
+    }
+
+    {
+
+    }
+}
