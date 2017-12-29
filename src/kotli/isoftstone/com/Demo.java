@@ -9,6 +9,13 @@ package kotli.isoftstone.com;
 public class Demo {
 
     public static void main(String[] args){
+        int a = 16,b = 4,c =2;
+        int temp = a + b / (c + 1) * 2;
+        System.out.println(temp);
+        System.out.println((c + 1) * 2);
+    }
+
+    private static void method() {
         String str = "hello world";
 //        System.out.println(str.substring(-1));
         String s = "ccc\naaa";
@@ -18,13 +25,4 @@ public class Demo {
         System.out.println(isInstanceOf);
     }
 }
-class A
-{
-    static {
 
-    }
-
-    {
-
-    }
-}
